@@ -48,8 +48,5 @@ This repository contains custom implementations of convolutional neural network 
   - **Dropout Layers**: `Dropout(p=0.5)` applied twice
   - **Fully Connected Layer**: `Linear(in_features=200704, out_features=2)`
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/repository-name.git
+## Contribution
+Feel free to fork the repository, make modifications, and submit pull requests. Contributions and suggestions are welcome.
