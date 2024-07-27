@@ -14,6 +14,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Dropout Layers**: `Dropout(p=0.3)` applied twice
   - **Flatten Layer**: Converts tensor to 1D
   - **Fully Connected Layer**: `Linear(in_features=1605632, out_features=2)`
+    
 
 ### Custom ResNet Model
 - **Architecture**: Custom ResNet with basic residual blocks.
@@ -26,6 +27,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Dropout Layers**: `Dropout(p=0.5)` applied twice
   - **Pooling**: `AdaptiveAvgPool2d(output_size=(1, 1))`
   - **Fully Connected Layer**: `Linear(in_features=64, out_features=2)`
+    
 
 ### Custom VGG Model
 - **Architecture**: Custom VGG-like model.
@@ -36,6 +38,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Dropout Layers**: `Dropout(p=0.5)` applied twice
   - **Flatten Layer**: Converts tensor to 1D
   - **Fully Connected Layer**: `Linear(in_features=401408, out_features=2)`
+    
 
 ### Custom Xception Model
 - **Architecture**: Simplified version of Xception.
@@ -47,6 +50,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Pooling**: `MaxPool2d(kernel_size=3, stride=2, padding=1)`
   - **Dropout Layers**: `Dropout(p=0.5)` applied twice
   - **Fully Connected Layer**: `Linear(in_features=200704, out_features=2)`
+    
 
 ## Contribution
 Feel free to fork the repository, make modifications, and submit pull requests. Contributions and suggestions are welcome.
