@@ -1,6 +1,6 @@
 # Custom Convolutional Neural Network Models
 
-This repository contains custom implementations of convolutional neural network (CNN) models designed for binary classification tasks. Each model has been tailored with specific architectures to enhance performance and adapt to various classification challenges.
+This repository contains custom implementations of convolutional neural network (CNN) models designed for binary classification tasks. Each model has been tailored with specific architectures and adapt to various classification challenges.
 
 ## Models Overview
 
