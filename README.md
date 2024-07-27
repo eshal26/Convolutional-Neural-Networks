@@ -4,7 +4,7 @@ This repository contains custom implementations of convolutional neural network 
 
 ## Models Overview
 
-### Simple Inception Model
+### Custom Inception Model
 - **Architecture**: Custom inception-like model with basic components.
 - **Key Components**:
   - **Initial Convolution**: `Conv2d(3, 16, kernel_size=3, stride=1, padding=1)`
@@ -15,7 +15,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Flatten Layer**: Converts tensor to 1D
   - **Fully Connected Layer**: `Linear(in_features=1605632, out_features=2)`
 
-### Simple ResNet Model
+### Custom ResNet Model
 - **Architecture**: Custom ResNet with basic residual blocks.
 - **Key Components**:
   - **Residual Block**:
@@ -37,7 +37,7 @@ This repository contains custom implementations of convolutional neural network 
   - **Flatten Layer**: Converts tensor to 1D
   - **Fully Connected Layer**: `Linear(in_features=401408, out_features=2)`
 
-### Simplified Xception Model
+### Custom Xception Model
 - **Architecture**: Simplified version of Xception.
 - **Key Components**:
   - **Depthwise Separable Convolution**:
